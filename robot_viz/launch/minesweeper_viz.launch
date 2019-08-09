@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find minesweeper_localization)/launch/localization.launch"/>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find robot_viz)/rviz/mine.rviz" />
+  <node name="add_mine_server" type="marker.py" pkg="minesweeper_mapping" output="screen"/>
+  <node name="rqt_service_caller" type="rqt_service_caller" pkg="rqt_service_caller" />
+</launch>
+

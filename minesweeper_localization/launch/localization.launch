@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="minesweeper_localization" type="sensors_parser.py" name="sensors_parser_node" output="screen"/>
+  <!--node pkg="minesweeper_localization" type="tf_pub_node" name="tf_pub_node" output="screen"/-->
+</launch>

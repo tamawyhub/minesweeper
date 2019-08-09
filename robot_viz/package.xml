@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>robot_viz</name>
+  <version>0.0.0</version>
+  <description>The robot_viz package, launches a specific configuration of rviz which contains the robot model, the marker array and initial setting of the robot location relative to the map.</description>
+
+  <maintainer email="tamtamawy333@gmail.com">AhmedTom</maintainer>
+
+
+  <license>BSD</license>
+
+
+  <author email="tamtamawy333@gmail.com">AhmedTom</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rviz</build_depend>
+  <build_export_depend>rviz</build_export_depend>
+  <exec_depend>rviz</exec_depend>
+
+
+  <export>
+  </export>
+</package>

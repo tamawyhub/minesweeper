@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>minesweeper_localization</name>
+  <version>0.0.0</version>
+  <description>The minesweeper_localization package, which handles reading the sensors' data sent via RF modules through the serial port, parsing it, updating the robot's location relative to the arena and transforming the model, as per the optained location, in rviz.</description>
+
+  <maintainer email="tamtamawy333@gmail.com">AhmedTom and co.</maintainer>
+
+
+  <license>BSD</license>
+
+
+  <author email="tamtamawy333@gmail.com">AhmedTom and co.</author> -->
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>tf</build_depend>
+  <build_export_depend>nav_msgs</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>tf</build_export_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>tf</exec_depend>
+
+
+  <export>
+  </export>
+</package>
